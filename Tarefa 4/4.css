@@ -1,0 +1,76 @@
+        /* Estilo básico para a página */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Container principal da página */
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        /* Estilo do cabeçalho */
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            color: #0073e6;
+        }
+
+        /* Estilo dos parágrafos e destaque */
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        p span {
+            font-weight: bold;
+            color: #0073e6;
+        }
+
+        /* Citação estilizada */
+        blockquote {
+            font-size: 1.1em;
+            color: #555;
+            border-left: 4px solid #0073e6;
+            margin: 20px 0;
+            padding-left: 15px;
+        }
+
+        /* Estilo do rodapé */
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding: 10px 0;
+            background-color: #0073e6;
+            color: white;
+            border-radius: 0 0 8px 8px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Estilo responsivo */
+        @media (max-width: 600px) {
+            body {
+                font-size: 0.9em;
+            }
+
+            header h1 {
+                font-size: 1.8em;
+            }
+        }
+    

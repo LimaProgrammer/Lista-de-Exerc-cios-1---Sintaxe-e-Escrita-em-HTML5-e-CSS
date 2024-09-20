@@ -1,0 +1,41 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #0073e6;
+}
+
+h2 {
+    margin-top: 40px;
+    color: #333;
+}
+
+.continent {
+    margin-bottom: 30px;
+}
+
+.country {
+    margin: 10px 0;
+}
+
+.country a {
+    text-decoration: none;
+    color: #0073e6;
+    font-weight: bold;
+}
+
+img {
+    width: 60px;
+    height: 40px;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+}
+
+.flag {
+    margin-right: 10px;
+}

@@ -1,0 +1,22 @@
+/* Estilo global */
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilização do título */
+h1 {
+    color: #4CAF50;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Estilização do parágrafo */
+p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #555;
+}
